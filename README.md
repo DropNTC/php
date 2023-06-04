@@ -1,2 +1,2 @@
 # php
-PHP 
+Projetos para estudo criados em PHP
