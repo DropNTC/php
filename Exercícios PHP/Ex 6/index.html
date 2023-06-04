@@ -1,0 +1,41 @@
+<html>
+    <title>
+        Atividade
+    </title>
+    <body>
+        <form method="post" action="post.php">
+            <h1>Cadastro de Pessoa</h1>
+            <label>Nome:</label>
+            <input type="text" maxlength="100" required name="nome" placeholder="insira seu nome.."/>
+            <br><br>
+            <label>Email:</label>
+            <input type="text" maxlength="100" required name="email" placeholder="insira seu email.."/>
+            <br><br>
+            <button type="submit">Salvar</button>
+        </form>
+        <br>
+        <form method="post" action="get.php">
+            <h1>Listar Pessoas</h1>
+            <button type="submit">Listar</button>
+        </form>
+        <br>
+        <form method="post" action="put.php">
+            <h1>Alterar email de Pessoa</h1>
+            <label>Nome a ser pesquisado:</label>
+            <input type="text" maxlength="100" required name="nome" placeholder="insira seu nome.."/>
+            <br><br>
+            <label>Email a ser alterado:</label>
+            <input type="text" maxlength="100" required name="email" placeholder="insira seu email.."/>
+            <br><br>
+            <button type="submit">Alterar</button>
+        </form>
+        <br>
+        <form method="post" action="delete.php">
+            <h1>Deletar Pessoa</h1>
+            <label>Nome a ser deletado:</label>
+            <input type="text" maxlength="100" required name="nome" placeholder="insira seu nome.."/>
+            <br><br>
+            <button type="submit">Deletar</button>
+        </form>
+    </body>
+</html>
